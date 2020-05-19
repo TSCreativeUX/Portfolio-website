@@ -11,62 +11,72 @@
 </head>
 <body>
 	<header>
-		<div>
-			<a href="/"><img alt="logo" src="img/tslogo.png"></a>
-			<div id="navigation">
-				<ul>
-					<li>
-						<a href="index.html">Home</a>
-					</li>
-					<li>
-						<a href="about.html">About Me</a>
-					</li>
-					<li>
-						<div class="Portfolio">
-							<button class="dropbtn" onclick="myFunction()">Portfolio</button>
-							<div class="dropdown">
-								<div class="dropdown-content" id="myDropdown">
-									<a href="Expert.html">Expert App</a>
+		<div class="container">
+			<img alt="Logo" src="img/tslogo.png">
+			<nav>
+				<div class="navigation" style="margin-left: 2em">
+					<div id="navigation">
+						<ul>
+							<li>
+								<a href="index.html">Home</a>
+							</li>
+							<li>
+								<a href="about.html">About Me</a>
+							</li>
+							<li>
+								<div class="Portfolio">
+									<button class="dropbtn" onclick="myFunction()">Portfolio</button>
+									<div class="dropdown">
+										<div class="dropdown-content" id="myDropdown">
+											<a href="Expert.html">Expert App</a>
+										</div>
+									</div>
 								</div>
-							</div>
-						</div>
-					</li>
-					<li>
-						<a href="contact">Contact Me</a>
-					</li>
-				</ul>
-			</div>
+							</li>
+							<li>
+								<a href="contact">Contact Me</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</nav>
 		</div>
 	</header>
 	<main>
-		<div>
-			<h1>Hi I'm Tamara Stampone <span>I'm a UX Designer based in New Jersey</span></h1>
-			<p>Hi, I'm Tamara. I'm a Video Editor and UX Designer for brands and businesses. I use design thinking methodology and research to take complex situations to simplify a user's experience.</p>
-		</div>
-		<div>
-			<div>
-				<div id="work">
-					<h2>My Work</h2>
+		<div id="hero">
+			<div class="container">
+				<div>
+					<h1>Hi I'm Tamara Stampone <span>I'm a UX Designer based in New Jersey</span></h1>
+					<p>I'm a Video Editor and UX Designer for brands and businesses. I use design thinking methodology and research to take complex situations to simplify a user's experience.</p>
+				</div>
+				<div>
 					<div>
-						<!--- Row start // Project 1 -->
-						<div><img alt="My image" src="img/expert/ExpertCover.png"></div>
-						<div>
-							<h3>EXPERT</h3>
-							<p>EXPERT is a mobile app that allows users to connect instantly with an Expert in virtually any field</p><a class="button" href="Expert.html">View Case Study</a>
+						<div id="work">
+							<div class="container">
+								<h2>My Work</h2>
+								<div class="row">
+									<!--- Row start // Project 1 -->
+									<div><img alt="My image" src="img/expert/ExpertCover.png"></div>
+									<div>
+										<h3>EXPERT</h3>
+										<p>EXPERT is a mobile app that allows users to connect instantly with an Expert in virtually any field</p><a class="button" href="Expert.html">View Case Study</a>
+									</div>
+								</div><!--- Row end // Project 1 end -->
+								<!--- Row start // Project 2-->
+								<div><img alt="My image" src="img/cook-for-me/cookforme.png"></div>
+								<div>
+									<h3>Cook For Me</h3>
+									<p>Cook for Me is an Alexa skill created for my Voice User Interface design course.</p><a class="button" href="Cookforme.html">View Case Study</a>
+								</div>
+							</div><!--- Row end // Project 2 end -->
 						</div>
-					</div><!--- Row end // Project 1 end -->
-					<!--- Row start // Project 2-->
-					<div><img alt="My image" src="img/cook-for-me/cookforme.png"></div>
-					<div>
-						<h3>Cook For Me</h3>
-						<p>Cook for Me is an Alexa skill created for my Voice User Interface design course.</p><a class="button" href="Cookforme.html">View Case Study</a>
 					</div>
-				</div><!--- Row end // Project 2 end -->
+				</div>
 			</div>
 		</div>
 	</main>
 	<footer>
-		<div>
+		<div class="container">
 			<div id="get-in-touch">
 				<h2>Get in Touch</h2>
 				<p>I am open for Freelance work. You can reach me via Email</p>
