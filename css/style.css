@@ -124,3 +124,24 @@ a:focus {
 }
 
 #work .row { padding-bottom: 25px; border-bottom: 0px solid #4a4a4a; }
+
+#hero h1 {
+  text-align: center; /* Centers text */
+}
+.logo {
+  max-width: 250px;
+}
+
+header {
+  background-color: #FCFBFB;
+  text-align: center;
+  padding: 10px 0;
+}
+
+nav > ul {
+  list-style-type: none;
+  padding: 0;
+}
+nav > ul > li {
+  display: inline-block;
+}
