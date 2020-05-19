@@ -129,7 +129,8 @@ a:focus {
   text-align: center; /* Centers text */
 }
 .logo {
-  max-width: 250px;
+  max-width: 250px
+  width:100%;
 }
 
 header {
@@ -144,4 +145,11 @@ nav > ul {
 }
 nav > ul > li {
   display: inline-block;
+}
+
+nav > ul > li > a {
+  padding: 0 15px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #4a4a4a;
 }
