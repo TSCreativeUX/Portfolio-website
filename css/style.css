@@ -5,182 +5,168 @@ Secondary Color (black): #FFFFFF;
 Third Color (purple):#6236FF
 */
 
-
 header {
-  background-color: #FCFBFB;
-  padding-top: 10px;
-  padding-right: 5px;
-  padding-bottom: 15px;
-  padding-left: 5px;
-  border-bottom: 0px solid;
-  display: inline-block
-  position: fixed; width: 100%;
+	background-color: #FCFBFB;
+	padding-top: 10px;
+	padding-right: 5px;
+	padding-bottom: 15px;
+	padding-left: 5px;
+	border-bottom: 0px solid;
+	display: inline-block position: fixed;
+	width: 100%;
 }
-
 selector {
-  margin: 0 auto; /* No spacing to top and bottom and auto spacing to left and right */
+	margin: 0 auto;
+	/* No spacing to top and bottom and auto spacing to left and right */
 }
-
 selector {
-  position: fixed;
+	position: fixed;
 }
-
 selector {
-  width: 1200px;
+	width: 1200px;
 }
-
 .container {
-  max-width: 1200px;
+	max-width: 1200px;
 }
-
 * {
-  box-sizing: border-box;
+	box-sizing: border-box;
 }
-
 body {
-background-color: #ffffff;
-font-family: 'Poppins', sans-serif;
-font-size: 16px; /* Sets the font size to 16px */
-font-weight: 300; /* Sets the font weight to 300 */
-line-height: 1.6; /* Sets the line-height to 1.6 * the font-size */
-color: #4a4a4a;
+	background-color: #ffffff;
+	font-family: 'Poppins', sans-serif;
+	font-size: 16px;
+	/* Sets the font size to 16px */
+	font-weight: 300;
+	/* Sets the font weight to 300 */
+	line-height: 1.6;
+	/* Sets the line-height to 1.6 * the font-size */
+	color: #4a4a4a;
 }
-
 h1, h2, h3, h4 {
-line-height: 1.4;
+	line-height: 1.4;
 }
 h1 {
-font-size: 2.75em;
-font-weight: 700;
+	font-size: 2.75em;
+	font-weight: 700;
 }
-
 h2 {
-font-size: 2.25em;
-font-weight: 700;
+	font-size: 2.25em;
+	font-weight: 700;
 }
-
 h3 {
-font-size: 1.75em;
-font-weight: 400;
+	font-size: 1.75em;
+	font-weight: 400;
 }
 h4 {
-font-size: 1.35em;
-font-weight: 400;
+	font-size: 1.35em;
+	font-weight: 400;
 }
-
 img {
-  width: 100%;
+	width: 100%;
 }
-
 a {
-  color: #000000;
-  text-decoration: none; /* No underlining */
+	color: #000000;
+	text-decoration: none;
+	/* No underlining */
 }
 a:hover {
-  color: #6236FF;
-  text-decoration: underline; /* Underlining when hovering over a link */
+	color: #6236FF;
+	text-decoration: underline;
+	/* Underlining when hovering over a link */
 }
-
-a:hover,
-a:focus {
-  color: #6236FF;
-  text-decoration: underline;
+a:hover, a:focus {
+	color: #6236FF;
+	text-decoration: underline;
 }
-
 .button {
-  display: inline-block; /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
-  background-color: #6236FF;
-  color: #ffffff !important; /* needed to override the default link color */
-  font-weight: 400;
-  padding: 10px;
-  border-radius: 3px;
-  border-bottom: 2px solid #FFFFFF; /* width of the border, type, color */
-  transition: 0.2s opacity;
+	display: inline-block;
+	/* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
+	background-color: #6236FF;
+	color: #ffffff !important;
+	/* needed to override the default link color */
+	font-weight: 400;
+	padding: 10px;
+	border-radius: 3px;
+	border-bottom: 2px solid #FFFFFF;
+	/* width of the border, type, color */
+	transition: 0.2s opacity;
 }
-
 .button:hover {
-  opacity: 0.8; /* Reduces the opacity of the button to 80% */
-  text-decoration: none;
+	opacity: 0.8;
+	/* Reduces the opacity of the button to 80% */
+	text-decoration: none;
 }
-
 .button.contact {
-  background-color: transparent;
-  color: #6236FF !important;
-  text-transform: uppercase;
-  border: 2px solid #000000;
+	background-color: transparent;
+	color: #6236FF !important;
+	text-transform: uppercase;
+	border: 2px solid #000000;
 }
-
 .button.contact:hover {
-  background-color: #6236FF;
-  color: #ffffff !important;
+	background-color: #6236FF;
+	color: #ffffff !important;
 }
-
 /* Layout styling */
 
 .container {
-  padding: 0 15px;
+	padding: 0 15px;
 }
-
 .row {
-  margin: 25px 0; /* 25px top and bottom, 0 left and right */
+	margin: 25px 0;
+	/* 25px top and bottom, 0 left and right */
 }
-
-#work .row { padding-bottom: 25px; border-bottom: 0px solid #4a4a4a; }
-
+#work .row {
+	padding-bottom: 25px;
+	border-bottom: 0px solid #4a4a4a;
+}
 #hero h1 {
-  text-align: center; /* Centers text */
+	text-align: center;
+	/* Centers text */
 }
 .logo {
-max-width: 250px;
-width: 100%;
-display: block;
+	max-width: 250px;
+	width: 100%;
+	display: block;
 }
-
 header {
-  background-color: #FCFBFB;
-  text-align: center;
-  padding: 10px 0;
+	background-color: #FCFBFB;
+	text-align: center;
+	padding: 10px 0;
 }
-
-nav  ul {
-  list-style-type: none;
-  padding: 0;
+nav ul {
+	list-style-type: none;
+	padding: 0;
 }
-nav  ul > li {
-  display: inline-block;
+nav ul>li {
+	display: inline-block;
 }
-
-nav  ul > li > a {
-  padding: 0 15px;
-  text-transform: uppercase;
-  font-weight: 700;
-  color: #4a4a4a;
+nav ul>li>a {
+	padding: 0 15px;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: #4a4a4a;
 }
 #hero {
-  background-color: #FFFFFF;
-  padding: 20px 0;
-  display: inline-block;
-  width: 100%;
+	background-color: #FFFFFF;
+	padding: 20px 0;
+	display: inline-block;
+	width: 100%;
 }
-
-
 main {
-  padding-top: 133px;
+	padding-top: 133px;
 }
-
 /* ==============================
 Medium devices (640px and larger)
 ================================= */
-@media only screen and (min-width: 640px) {
-}
 
+@media only screen and (min-width: 640px) {}
 /* ==============================
 Large devices (1024px or larger)
 ================================= */
-@media only screen and (min-width: 1024px) {
-}
+
+@media only screen and (min-width: 1024px) {}
 /* ==============================
 X-large devices (1440px or larger)
 ================================= */
-@media only screen and (min-width: 1440px) {
-}
+
+@media only screen and (min-width: 1440px) {}
