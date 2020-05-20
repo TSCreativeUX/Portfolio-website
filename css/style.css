@@ -12,7 +12,7 @@ header {
   padding-right: 5px;
   padding-bottom: 15px;
   padding-left: 5px;
-  border-bottom: 0px solid #
+  border-bottom: 0px solid;
   display: inline-block;
 }
 
@@ -21,7 +21,7 @@ selector {
 }
 
 selector {
-  position: relative;
+  position: fixed;
 }
 
 selector {
@@ -165,4 +165,21 @@ nav  ul > li > a {
 
 main {
   padding-top: 133px;
+}
+
+/* ==============================
+Medium devices (640px and larger)
+================================= */
+@media only screen and (min-width: 640px) {
+}
+
+/* ==============================
+Large devices (1024px or larger)
+================================= */
+@media only screen and (min-width: 1024px) {
+}
+/* ==============================
+X-large devices (1440px or larger)
+================================= */
+@media only screen and (min-width: 1440px) {
 }
