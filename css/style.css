@@ -130,7 +130,7 @@ a:hover, a:focus {
 }
 header {
 	background-color: #FCFBFB;
-	text-align: center;
+	text-align: unset;
 	padding: 10px 0;
 }
 nav ul {
