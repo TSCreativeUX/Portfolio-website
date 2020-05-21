@@ -189,28 +189,28 @@ nav ul>li>a {
 
 
 main {
-	padding-top: 99px;
-	/* ==============================
-	Medium devices (640px and larger)
-	================================= */
-	@media only screen and (min-width: 640px) {
-		header {
-			text-align: unset;
-			padding: 20px 0 13px;
-		}
-		nav {
-			width: auto;
-			float: right margin-top: 4px;
-		}
-		.col-md-6 {
-			width: 50%;
-			float: left;
-		}
-		.row::after {
-			content: "";
-			clear: both;
-			display: table;
-		}
+padding-top: 99px;
+}
+@media
+ only screen and (min-width: 640px) {
+header {
+text-align: unset;
+padding: 20px 0 13px;
+}
+nav {
+width: auto;
+float: right margin-top: 4px;
+}
+.col-md-6 {
+width: 50%;
+float: left;
+}
+.row::after {
+content: "";
+clear: both;
+display: table;
+}
+}
 		/* ==============================
 Large devices (1024px or larger)
 ================================= */
