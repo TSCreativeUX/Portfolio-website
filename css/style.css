@@ -186,6 +186,7 @@ nav ul>li>a {
 	text-align: center;
 }
 
+
 /* ==============================
 	Medium devices (640px and larger)
 	================================= */
@@ -217,6 +218,13 @@ main {
 Large devices (1024px or larger)
 ================================= */
 	@media only screen and (min-width: 1024px) {}
+		
+		.container {
+		  max-width: 1200px;
+		  margin-left: auto;
+		  margin-right: auto;
+		}
+
 	/* ==============================
 X-large devices (1440px or larger)
 ================================= */
