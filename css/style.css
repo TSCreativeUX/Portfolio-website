@@ -188,6 +188,16 @@ nav ul>li>a {
 	text-align: center;
 }
 
+berlin {
+	height: 505
+
+
+}
+
+@keyframes color-change {
+  from {fill: #edc655;}
+  to {fill: #f76414;}
+}
 
 /* ==============================
 	Medium devices (640px and larger)
