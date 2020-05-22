@@ -101,11 +101,13 @@ a:hover, a:focus {
 	color: #ffffff !important;
 	/* needed to override the default link color */
 	font-weight: 400;
+	text-decoration: none;
 	padding: 10px;
 	border-radius: 3px;
 	border-bottom: 2px solid #FFFFFF;
 	/* width of the border, type, color */
 	transition: 0.2s opacity;
+	transition-property: opacity;
 }
 
 .button:hover {
@@ -218,7 +220,7 @@ main {
 Large devices (1024px or larger)
 ================================= */
 	@media only screen and (min-width: 1024px) {}
-		
+
 		.container {
 		  max-width: 1200px;
 		  margin-left: auto;
