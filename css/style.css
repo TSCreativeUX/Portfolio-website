@@ -202,16 +202,17 @@ main {
 	nav {
 		width: auto;
 		float: right; margin-top: 5px;
-	}
-	.col-md-6 {
-		width: 50%;
-		float: left;
-	}
-	.row::after {
-  content: "";
-  clear: both;
-  display: table;
 }
+		[class*="col-"] {
+	  float: left;
+		padding-right: 10px;
+		padding-left: 10px;
+	}
+		.row::after {
+		  content: "";
+		  clear: both;
+		  display: table;
+		}
 	/* ==============================
 Large devices (1024px or larger)
 ================================= */
