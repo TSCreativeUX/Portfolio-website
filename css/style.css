@@ -194,6 +194,11 @@ nav ul>li>a {
   100% {fill: #f76414;}
 }
 
+.berlin-illustration {
+  width: 100%;
+
+}
+
 /* ==============================
 	Medium devices (640px and larger)
 	================================= */
@@ -210,7 +215,7 @@ main {
 	nav {
 		width: auto;
 		float: right; margin-top: 5px;
-}
+	}
 		[class*="col-"] {
 	  float: left;
 		padding-right: 10px;
@@ -221,16 +226,32 @@ main {
 		  clear: both;
 		  display: table;
 		}
+
+		.col-md-6 {
+			width: 50%;
+
+		}
+	}
+
 	/* ==============================
 Large devices (1024px or larger)
 ================================= */
-	@media only screen and (min-width: 1024px) {}
+	@media only screen and (min-width: 1024px) {
 
 		.container {
 		  max-width: 1200px;
 		  margin-left: auto;
 		  margin-right: auto;
 		}
+		.col-lg-7 {
+			width: 60%;
+
+		}
+		.col-lg-5 {
+			width: 40%;
+
+		}
+}
 
 	/* ==============================
 X-large devices (1440px or larger)
