@@ -242,6 +242,11 @@ a.linkedin img {
 display: block;
 width: 25px;
 }
+
+.profile-picture {
+	display: block;
+	width: 300px;
+}
 /* ==============================
 	Medium devices (640px and larger)
 	================================= */
@@ -299,4 +304,6 @@ Large devices (1024px or larger)
 	/* ==============================
 X-large devices (1440px or larger)
 ================================= */
-	@media only screen and (min-width: 1440px) {}
+	@media only screen and (min-width: 1440px) {
+
+	}
