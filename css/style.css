@@ -155,7 +155,8 @@ a:hover, a:focus {
 .logo {
 	max-width: 250px;
 	width: 100%;
-	display: block;
+	display: inline-block;
+	
 }
 
 header {
@@ -246,6 +247,7 @@ width: 25px;
 .profile-picture {
 	display: block;
 	width: 300px;
+	margin: 0 auto;
 }
 /* ==============================
 	Medium devices (640px and larger)
@@ -280,6 +282,11 @@ main {
 
 		}
 	}
+
+.list{
+	text-align: left;
+}
+
 
 	/* ==============================
 Large devices (1024px or larger)
