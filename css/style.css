@@ -230,7 +230,17 @@ footer {
     margin-left: auto;
     margin-right: auto;
 		background-color: #FCFBFB;
-	
+
+}
+
+a.linkedin {
+display: block;
+margin: 0 auto;
+}
+
+a.linkedin img {
+display: block;
+width: 150px;
 }
 /* ==============================
 	Medium devices (640px and larger)
