@@ -153,10 +153,10 @@ a:hover, a:focus {
   display: block;
 }
 .logo {
-	max-width: 250px;
+	max-width: 150px;
 	width: 100%;
 	display: inline-block;
-	
+
 }
 
 header {
@@ -170,15 +170,16 @@ nav ul {
 	padding: 0;
 }
 
-nav ul>li {
-	display: inline-block;
-}
 
 nav ul>li>a {
 	padding: 0 15px;
 	text-transform: uppercase;
 	font-weight: 700;
 	color: #4a4a4a;
+}
+
+.navtoggle li:not(:last-child) {
+  display: none;
 }
 
 #hero {
@@ -265,7 +266,17 @@ main {
 	nav {
 		width: auto;
 		float: right; margin-top: 5px;
-	}
+}
+.navtoggle li:not(:last-child) {
+  display: inline-block;
+}
+
+.logo {
+	max-width: 250px;
+	width: 100%;
+	display: inline-block;
+
+}
 		[class*="col-"] {
 	  float: left;
 		padding-right: 10px;
@@ -287,6 +298,9 @@ main {
 	text-align: left;
 }
 
+nav ul>li {
+	display: inline-block;
+}
 
 	/* ==============================
 Large devices (1024px or larger)
