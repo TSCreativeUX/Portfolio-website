@@ -161,7 +161,6 @@ a:hover, a:focus {
 
 header {
 	background-color: #FCFBFB;
-	text-align: unset;
 	padding: 10px 0;
 }
 
@@ -282,6 +281,10 @@ width: 25px;
 	width: 300px;
 	margin: 0 auto;
 }
+
+a.icon {
+	display:block;
+}
 /* ==============================
 	Medium devices (640px and larger)
 	================================= */
@@ -294,6 +297,7 @@ main {
 	header {
 		text-align: unset;
 		padding: 30px 0 13px;
+
 	}
 	nav {
 		width: auto;
@@ -304,7 +308,7 @@ main {
 }
 
 a.icon {
-	display:block;
+	display:none;
 }
 
 .logo {
@@ -338,6 +342,10 @@ nav ul>li {
 	display: inline-block;
 }
 
+}
+nav > ul > li {
+  display: inline-block;
+}
 	/* ==============================
 Large devices (1024px or larger)
 ================================= */
@@ -357,6 +365,7 @@ Large devices (1024px or larger)
 
 		}
 }
+
 
 	/* ==============================
 X-large devices (1440px or larger)
