@@ -277,8 +277,10 @@ display: block;
 width: 25px;
 }
 
+
+
 a.behance img {
-display: inline-block;
+display: block;
 width: 25px;
 }
 
@@ -324,7 +326,7 @@ textarea {
 }
 
 [type="submit"] {
-  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-family: 'Poppins',sans-serif;
   width: 100%;
   background:#6236FF;
   border-radius:5px;
@@ -338,7 +340,8 @@ textarea {
   margin-top:-4px;
   font-weight:300;
 }
-[type="submit"]:hover { background:#6236FF; }
+
+
 
 /* ==============================
 	Medium devices (640px and larger)
