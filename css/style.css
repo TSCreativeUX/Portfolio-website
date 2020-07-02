@@ -268,19 +268,19 @@ footer {
 }
 
 a.linkedin {
-display: block;
+display: inline-block;
 margin: 0 auto;
 }
 
 a.linkedin img {
-display: block;
+display: inline-block;
 width: 25px;
 }
 
 
 
 a.behance img {
-display: block;
+display: inline-block;
 width: 25px;
 }
 
@@ -404,6 +404,9 @@ nav ul>li {
 nav > ul > li {
   display: inline-block;
 }
+
+img.swot {width: 600px}
+
 	/* ==============================
 Large devices (1024px or larger)
 ================================= */
